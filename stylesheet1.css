@@ -1,0 +1,55 @@
+
+
+.div{
+.nav{
+	width: 950px;
+	background-color: purple;
+	display: block;
+	float: left;
+	text-align: center;
+	color: white;
+	clear: both;
+	margin: 5px;
+	border-color: blue;
+}
+
+
+.header {
+	width: 950px;
+	background-color: blue;
+	display: block;
+	float: left;
+	text-align: center;
+	color: white;
+	clear: both;
+	margin: 5px;
+	border-color: blue;
+}
+
+
+.side {
+	width: 160px;
+	float: left;
+	background-color: yellow;
+}
+
+
+.main {
+	width: 780px;
+	background-color: red;
+	text-align: center;
+	float: left;
+	border-color: blue;
+}
+
+
+.footer {
+	width: 950px;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	display: block;
+	clear: both;
+	float: left; 
+	border-color: blue;
+}

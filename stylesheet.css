@@ -1,0 +1,93 @@
+.div{}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	}
+/*navigation menu starts here*/
+.ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: red;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow: hidden;
+}
+
+.li{
+	float: left;
+}
+
+.lia{
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.lia:hover {
+	background-color: grey;
+}
+.nav {
+	background-color: red;
+	border-color: black;
+	display: block;
+	text-align: center;
+	width:959px;
+	position: static;
+	font-family: 'Pacifico';
+}
+
+.header {
+	background-color: red;
+	display: block;
+	text-align: center;
+	width: 959px;
+	position: static;
+	font-family: 'Parisienne', cursive;
+}
+.side {
+	background-color: red;
+	display: inline-block;
+	width: 150px;
+	height: 709px;
+	height: 800px;
+	position: static;
+	text-align: center; red;
+	vertical-align: top;
+	font-family: 'Parisienne', cursive;
+}
+/*main should have new images updated regularly*/ 
+.main{
+	background-color: red;
+	display: inline-block;
+	width: 800px;
+	height: 800px;
+	text-align: center;
+	position: static;
+	font-family: 'Parisienne', cursive;
+}
+.img {
+	width: 600px;
+	height: 600px;
+}
+.tbody 
+{
+		border-color: black;
+		width: 100%;
+		text-align: left;
+}
+.th {
+	height: 50%;
+}
+
+.footer {
+	background-color: red;
+	text-align: center;
+	display: block;
+	clear: both;
+	width: 959px;
+	position: static;
+	font-family: 'Pacifico';
+}
