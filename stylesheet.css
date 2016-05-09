@@ -1,93 +1,83 @@
-.div{}
-.container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-	}
+.div{
+	background-color:#F5F5F5;
+	color:#F5F5F5;
+	display: block;
+}
+.container{
+	width: 100%;
+}
 /*navigation menu starts here*/
-.ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: red;
-	font-family: 'Open Sans Condensed', sans-serif;
-	overflow: hidden;
+
+.nav ul {
+	 	text-decoration: none;
+	 	list-style-type: none;
+}
+.nav li {
+		float: left;
+		display: block;
+		color: black;
 }
 
-.li{
-	float: left;
-}
-
-.lia{
+.nav li a:link, nav li a:visited {
 	display: block;
-	padding: 14px 16px;
+	background-color: #F5F5F5;
+	font-family: 'Parisienne', cursive; 
+	width: 145px;
+	text-align: center;
 	text-decoration: none;
-	text-align: center;
-	color: white;
+}
+.nav li a:hover, nav li a:active{
+	background-color: #F5F5F5;
+	color: gray;
 }
 
-.lia:hover {
-	background-color: grey;
-}
-.nav {
-	background-color: red;
-	border-color: black;
-	display: block;
-	text-align: center;
-	width:959px;
-	position: static;
-	font-family: 'Pacifico';
-}
+/* Change the link color on hover */
 
 .header {
-	background-color: red;
+	background-color: #F5F5F5;
 	display: block;
 	text-align: center;
-	width: 959px;
-	position: static;
+	width: 100%;
 	font-family: 'Parisienne', cursive;
+	color:#OEOFOF;
+	clear: both;
 }
+/*update events and employees info*/
 .side {
-	background-color: red;
+	background-color: #F5F5F5;
 	display: inline-block;
-	width: 150px;
-	height: 709px;
+	width: 250px;
 	height: 800px;
-	position: static;
-	text-align: center; red;
-	vertical-align: top;
+	text-align: center;
 	font-family: 'Parisienne', cursive;
+	color: #OEOFOF;
 }
 /*main should have new images updated regularly*/ 
 .main{
-	background-color: red;
+	background-color: #F5F5F5;
 	display: inline-block;
-	width: 800px;
+	clear: right;
+	width: 750;
 	height: 800px;
 	text-align: center;
-	position: static;
+	vertical-align: top;
 	font-family: 'Parisienne', cursive;
+	color: #OEOFOF;
 }
 .img {
-	width: 600px;
-	height: 600px;
+	width:100%;
 }
-.tbody 
-{
-		border-color: black;
-		width: 100%;
-		text-align: left;
-}
-.th {
-	height: 50%;
-}
+/*update copyright on footer if there are changes*/
 
 .footer {
-	background-color: red;
+	background-color: #F5F5F5;
 	text-align: center;
 	display: block;
 	clear: both;
-	width: 959px;
-	position: static;
+	width: 100%;
 	font-family: 'Pacifico';
+	color: #OEOFOF;
+}
+.h1 {display: inline-block;
+	clear: right;
 }
